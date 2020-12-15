@@ -1,34 +1,75 @@
-* {
-    margin-top: 0;
-    margin-bottom: 20px;
-    margin-left: 15px;
-    margin-right: 40px;
-}
+
 
 body {
     background-color: bisque;
 }
 
-p {
-    color: brown;
+h1 {
+    font-family: 'Montserrat';
+    color: orange;
 }
 
-.espacamento {
-    margin: 10px;
+h2 {
+    font-family: 'Montserrat';
+    color: orange;
 }
 
-#principal {
+a {
+    font-family: 'Montserrat';
+    color: gray;
+    text-decoration: none;
     background-color: white;
-    color: black;
+    border-radius: 8px;
+}
+
+ul, ol {
+    color: rgb(71, 71, 71);
+    text-align: left;
+    font-family: montserrat;
+    font-size: 14px;
+}
+
+#divona {
+    border: 20px solid white;
+    margin-top: 20px;
+    text-align: center;
+}
+
+#imagem1 {
+
+    margin: 20px;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+/*#principal {
+    background-color: white;
+    color: rgb(39, 39, 39);
     font-weight: bold;
     padding: 16px;
     text-align: center;
     height: 100px;
     opacity: 0.4;
+}*/
+
+.receita {
+    border-style: solid;
+    border-color: white;
+    border-bottom-width: 0px;
+    border-top-width: 20px;
+    border-right-width: 0px;
+    border-left-width: 0px;
 }
 
+.container1, .container2 {
+    text-align: center;
+
+}
+
+/*
 .chave {
     background-color: white;
+    margin: 10px;
 }
 
 #divMaior {
@@ -36,4 +77,4 @@ p {
     font-family: 'Courier New', Courier, monospace;
     font-size: 30px;
     text-decoration: none;
-}
+} */
