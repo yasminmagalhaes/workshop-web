@@ -1,0 +1,39 @@
+* {
+    margin-top: 0;
+    margin-bottom: 20px;
+    margin-left: 15px;
+    margin-right: 40px;
+}
+
+body {
+    background-color: bisque;
+}
+
+p {
+    color: brown;
+}
+
+.espacamento {
+    margin: 10px;
+}
+
+#principal {
+    background-color: white;
+    color: black;
+    font-weight: bold;
+    padding: 16px;
+    text-align: center;
+    height: 100px;
+    opacity: 0.4;
+}
+
+.chave {
+    background-color: white;
+}
+
+#divMaior {
+    display: inline;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+    text-decoration: none;
+}
